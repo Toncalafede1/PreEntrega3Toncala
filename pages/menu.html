@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- cierre -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Header General -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Restaurante Tvomcala</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Cierre -->
+
+    <!-- Menu Main -->
+    <main class="fondo">
+        <div class="container">
+            <h1 class="text-center my-5">Menú</h1>
+
+            <div class="menu-container">
+                <div class="menu-section">
+                    <h3>Entradas</h3>
+                    <h4>Calamares a la Romana</h4>
+                    <p>Anillos de calamar rebozados y fritos, a menudo servidos con
+                        salsa.
+                    </p>
+                    <p class="precio">Precio: $10.99</p>
+                    <h4>Quesos y Embutidos</h4>
+                    <p>Tablas de variedad de quesos, jamones, salchichas y
+                        acompañamientos.
+                    </p>
+                    <p class="precio">Precio: $9.99</p>
+                </div>
+
+                <div class="menu-section">
+                    <h3>Platos Principales</h3>
+                    <h4>Carne con papas</h4>
+                    <p>
+                        Consiste en carne de res, las papas suelen ser cortadas en
+                        rodajas o cubos.
+                    </p>
+                    <p class="precio">Precio: $20.00</p>
+                    <h4>Pescados y Mariscos</h4>
+                    <p>Platos de pescado fresco, como salmón a la parrilla, lubina al horno o
+                        paella.
+                    </p>
+                    <p class="precio">Precio: $30.00</p>
+                </div>
+
+                <div class="menu-section">
+                    <h3>Postres<h3>
+                            <h4>Pastel de Chocolate</h4>
+                            <p>Delicioso pastel de chocolate con cobertura de fudge. Ideal para colocar dulce de leche.
+                            </p>
+                            <p class="precio">Precio: $6.99</p>
+                            <h4>Helado de Vainilla</h4>
+                            <p>Helado cremoso de vainilla con nueces y salsa de caramelo.</p>
+                            <p class="precio">Precio: $4.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/fiambre.jpg" class="d-block w-100" alt="Embutidos">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carne.jpg" class="d-block w-100" alt="Carne">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/torta.jpg" class="d-block w-100" alt="Pastel de chocolate">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <!-- Cierre -->
+
+    <!-- Footer General -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Reservas</h5>
+                    <p>Puedes hacer reservas llamando al número: <strong>(123) 456-7890</strong></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Horarios</h5>
+                    <p>Lunes a Viernes: 19:30 - 00:00</p>
+                    <p>Sábados y Domingos: 19:00 - 01:30</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li> <img src="../img/facebook.png" alt=""><a href="#" target="_blank">Facebook</a></li>
+                        <li><img src="../img/twitter-.png" alt=""><a href="#" target="_blank">Twitter</a></li>
+                        <li><img src="../img/ig.png" alt=""><a href="#" target="_blank">Instagram</a></li>
+                        <li><img src="../img/wpp.png" alt=""><a href="#" target="_blank">Whatssapp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <span class="text-muted">© 2023 Mi Sitio Web</span>
+        </div>
+    </footer>
+    <!-- Cierre -->
+</body>
+
+</html>
