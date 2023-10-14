@@ -1,0 +1,30 @@
+/* Nosotros Main */
+.fondo {
+    background-color: black;
+    .nosotros {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        .contenido {
+            flex: 1;
+            margin-right: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: $color-principal;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: $color-principal;
+        }
+        .imagen img {
+            max-width: 100%;
+            height: auto;
+            padding-top: 20%;
+        }
+    }
+}
+/* Cierre */
