@@ -356,7 +356,7 @@ section#inicio .inicio-contenido .boton-reserva {
 /* Media Queries Eventos */
   .card {
     width: 100%;
-    margin: 10px auto; 
+    margin: 20px auto; 
     text-align: center;
     display: flex;
     flex-direction: column;
